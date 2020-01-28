@@ -21,11 +21,20 @@ console.log(aprovados[3]);
 aprovados.push('Vitor')
 console.log(aprovados[4]);
 
-//Medindo os tamanhos dos elementos dos Arrays
+//Medindo os tamanhos dos elementos dos Arrays.
 
 console.log(aprovados+' esse arry tem tamanho de '+aprovados.length+' posição');
 
-/*Ordenação dos Arrays isso causa uma midificação no array*/ 
+//Ordenação dos Arrays isso causa uma midificação no array .
 
 aprovados.sort()
 console.log(aprovados);
+
+//Metodos de exclução de array.
+//
+delete aprovados[0];
+//Esse metodo não reoderna o array ele apenas elimina o elemento e coloca na oposicao como undefined.
+console.log(aprovados[0]); // --> Esta contendo o elemento como undefined.
+console.log(aprovados[1]); // --> está contendo o elemento Bia.
+
+
