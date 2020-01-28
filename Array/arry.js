@@ -41,3 +41,5 @@ aprovados = ['Bia', 'Carlos', 'Ana'];
 aprovados.splice(1,1,'Polly');
 console.log(aprovados);
 
+//O metodo .splice retira o elemento 1 e adiciona o novo elemento no caso Poly
+
