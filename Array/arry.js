@@ -43,3 +43,6 @@ console.log(aprovados);
 
 //O metodo .splice retira o elemento 1 e adiciona o novo elemento no caso Poly
 
+aprovados.splice(1,1,'Geovani', 'Claudia');
+
+console.log(aprovados);
