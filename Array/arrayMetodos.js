@@ -36,3 +36,7 @@ console.log(pilotos)
 const algunsPilots = pilotos.slice(2) // Ele retrona um novo array a partir do indice 2(contando com o 2).
 console.log(algunsPilots);
 // ? [ 'Bottas', 'Raikkonen', 'Vestappen' ]
+
+const algunsPilots1 = pilotos.slice(1,4)// O indice 4 não é retornado.
+console.log(algunsPilots1);
+// ? [ 'Alonso', 'Bottas', 'Raikkonen' ]
