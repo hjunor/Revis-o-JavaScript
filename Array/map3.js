@@ -1,8 +1,9 @@
 Array.prototype.map2 = function(calback){
+   const newArray = [];
    for(let i = 0; i<this.length; i++){
-       calback(this[i], i, this)
-
+       newArray.push(calback(this[i], i, this));
    }
+   return newArray;
 }
 const carrinho = [
     '{"nome":"Borracha", "preco":3.45}',
