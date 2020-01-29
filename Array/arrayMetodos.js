@@ -32,6 +32,7 @@ pilotos.splice(3,1) // --> o 'Massa' sai do array.
 console.log(pilotos)
 // ? [ 'Hamilton', 'Alonso', 'Bottas', 'Raikkonen', 'Vestappen' ]
 
-// Essem metodo retorna um novo array.
+//O metodo .slice retorna um novo array.
 const algunsPilots = pilotos.slice(2) // Ele retrona um novo array a partir do indice 2(contando com o 2).
 console.log(algunsPilots);
+// ? [ 'Bottas', 'Raikkonen', 'Vestappen' ]
