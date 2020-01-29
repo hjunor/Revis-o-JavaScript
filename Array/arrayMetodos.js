@@ -26,5 +26,8 @@ console.log(pilotos);
  ("antes do indice marcado", "numerode elementos afetados", "elementos adicionados") */
  pilotos.splice(2,0,'Bottas', 'Massa');
  console.log(pilotos);
- // ?
+ // ? [ 'Hamilton', 'Alonso', 'Bottas', 'Massa', 'Raikkonen', 'Vestappen']
 
+pilotos.splice(3,1) // --> o 'Massa' sai do array.
+console.log(pilotos)
+// ? [ 'Hamilton', 'Alonso', 'Bottas', 'Raikkonen', 'Vestappen' ]
