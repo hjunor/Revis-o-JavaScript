@@ -1,7 +1,7 @@
 const alunos = [
     {nome: 'João', notas:7.9},
     {nome: 'joão', notas:9.2}
-]
+]// Pode ser um objeto ou um JSON.
 
 //imperativo
 
