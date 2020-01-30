@@ -6,7 +6,8 @@ Array.prototype.filter2 = function(callback){
         }
        return newArray;
     }
-}
+}//Metodo Prototype do filter.
+
 const produtos = [
     {nome: 'Notebook', preco:2499, fragil:true},
     {nome: 'iPad Pro', preco:4199, fragil:true},
