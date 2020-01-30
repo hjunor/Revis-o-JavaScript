@@ -5,11 +5,11 @@ Array.prototype.reduce2 = function(callback, valorInicial){
       acumulador = callback(acumulador, this[i],this);
     }
     return acumulador;
-}
+}//Metodo Prototype estruturado do reduce.
 
 const soma = (total, valor) => total + valor;
 
 const nums = [1, 2, 3, 4, 5, 6];
 
-console.log(nums.reduce2(soma));
+console.log(nums.reduce2(soma)); 
 console.log(nums.reduce2(soma, 21));
