@@ -1,6 +1,7 @@
 # Revis-o-JavaScript
 Revisão para linguagem Javascript
 
-#Segunda Parte
+# Segunda Parte
 
+promises asincronos.
 
