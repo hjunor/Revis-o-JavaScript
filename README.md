@@ -4,5 +4,5 @@ Revisão para linguagem Javascript.
 
 # Segunda Parte
 
-promises asincronos.
+promises asincronos..
 
